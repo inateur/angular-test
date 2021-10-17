@@ -3,7 +3,7 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "editor.codeActionsOnSave": {
-        "source.fixAll.tslint": true,
+        "source.fixAll.eslint": true,
         "source.organizeImports": false
     },
     "editor.formatOnSave": false,
@@ -19,17 +19,15 @@
             "fileMatch": [
                 ".prettierrc.json"
             ],
-            "url": "http://json.schemastore.org/prettierrc"
+            "url": "https://json.schemastore.org/prettierrc"
         },
         {
             "fileMatch": [
-                "tslint.json"
+                ".eslintrc.json"
             ],
-            "url": "http://json.schemastore.org/tslint"
+            "url": "https://json.schemastore.org/eslintc"
         }
     ],
-    "puglint.enable": true,
-    "puglint.run": "onSave",
     "scss.lint.duplicateProperties": "error",
     "typescript.format.enable": true
 }
